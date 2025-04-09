@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+require "vendor/autoload.php";
+
+require "bootstrap.php";
+
+
+include "commands.php";

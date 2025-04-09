@@ -1,0 +1,18 @@
+{
+    "name": "user/a-php",
+    "autoload": {
+        "psr-4": {
+            "Ahanaf\\App\\": "src/"
+        },
+        "files": ["helpers.php"]
+    },
+    "authors": [
+        {
+            "name": "Md. Ahanaf Hossain",
+            "email": "iammdahanaf@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^7.2"
+    }
+}
