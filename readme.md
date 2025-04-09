@@ -17,31 +17,31 @@ A simple expense tracker CLI application built with **PHP** using the **Symfony/
 
 - Add a new expense
 ```bash
-   php expense-tracker add --description=Dinner --amount=50 --category=Food
+   php expense-tracker add --description Dinner --amount 50 --category Food
 ```
 
 - Updating and deleting expenses
 ```bash
-   php expense-tracker update --id=1 --description=Lunch  --amount=175 --category=food
-   php expense-tracker delete --id=1
+   php expense-tracker update --id 1 --description Lunch  --amount 175 --category food
+   php expense-tracker delete --id 1
 ```
 
 - Get, Set, Delete Budget of each month
 ```bash
    php expense-tracker budget:get
-   php expense-tracker budget:set --month=4 --amount=5000
-   php expense-tracker budget:delete --month=4
+   php expense-tracker budget:set --month 4 --amount 5000
+   php expense-tracker budget:delete --month 4
 ```
 
 - Listing all expenses or filter by **category**
 ```bash
    php expense-tracker list
-   php expense-tracker list  --category=food
+   php expense-tracker list  --category food
 ```
 - Summarize all expenses or filter by **month**
 ```bash
    php expense-tracker summary
-   php expense-tracker summary --month=8
+   php expense-tracker summary --month 8
 ```
 
 - Export expenses as CSV file
@@ -52,7 +52,7 @@ A simple expense tracker CLI application built with **PHP** using the **Symfony/
 
 ## Installation
 
-**You need PHP and Composer installed**
+**You need to install PHP and Composer at first**
 1. Clone the repository to your local machine:
 
    ```bash
