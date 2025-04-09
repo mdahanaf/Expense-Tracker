@@ -33,12 +33,12 @@ A simple expense tracker CLI application built with **PHP** using the **Symfony/
    php expense-tracker budget:delete --month=4
 ```
 
-- Listing all expenses or with **category**
+- Listing all expenses or filter by **category**
 ```bash
    php expense-tracker list
    php expense-tracker list  --category=food
 ```
-- Summarize all expenses or with **month**
+- Summarize all expenses or filter by **month**
 ```bash
    php expense-tracker summary
    php expense-tracker summary --month=8
